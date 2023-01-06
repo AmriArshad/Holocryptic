@@ -1,0 +1,26 @@
++++
+title = "10 PRINT Circuit"
+template = "page.html"
+date = 2020-12-21
+[taxonomies]
+tags = ["2020", "p5js", "generative system", "geometric design", "monochrome"]
+[extra]
+summary = "My version of the famous one-line Commodore 64 BASIC program"
++++
+
+My version of the famous one-line Commodore 64 BASIC program
+
+```
+10 PRINT CHR$(205.5+RND(1)); : GOTO 10
+```
+
+<a target=_blank href="https://thecodingtrain.com/CodingChallenges/036-blobby.html">Inspiration</a>
+
+<embed
+type="text/html"
+src="https://vault.holocryptic.xyz/src/2020/10PRINTCircuit"
+width="500"
+height="500"
+/>
+
+<a target=_blank href="https://vault.holocryptic.xyz/src/2020/10PRINTCircuit">View in full screen</a>
