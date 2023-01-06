@@ -6,15 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ get_url(path="images/apple-touch-icon-144x144.png",
-    trailing_slash=false) }}" />
-  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ get_url(path="images/apple-touch-icon-120x120.png",
-    trailing_slash=false) }}" />
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ get_url(path="images/apple-touch-icon-72x72.png",
-    trailing_slash=false) }}" />
-  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ get_url(path="images/apple-touch-icon-57x57.png",
-    trailing_slash=false) }}" />
-  <link rel="short icon" href="{{ get_url(path="images/favicon.png") }}" type="image/x-icon" />
+  <link rel="short icon" href="{{ get_url(path="images/favicon.jpg") }}" type="image/x-icon" />
   <link rel="stylesheet" href="{{ get_url(path="style.css") }}">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
   <title>{% block title %}{{ config.title }}{% endblock title %}</title>
@@ -32,7 +24,7 @@
   <div id="sidebar" class="animated fadeInDown">
     <div class="logo-title">
       <div class="title">
-        <img src={{ get_url(path="images/logo@2x.png" ) }} style="width:127px;" alt="logo" />
+        <img src={{ get_url(path="images/logo.png" ) }} style="width:150px;" alt="logo" />
         <h3><a href="{{ get_url(path="@/_index.md", lang=lang) }}">{{ config.title }}</a></h3>
         <div class="description">
           <p>{{ config.description }}</p>
@@ -123,7 +115,7 @@
           </div>
         </div>
         {% endif %}
-        <div class="avatar"><img src="{{ get_url(path="images/avatar.jpg") }}"></div>
+        <div class="avatar"><img src="{{ get_url(path="images/avatar.png") }}"></div>
       </div>
     </div>
     <div class="autopagerize_page_element">
