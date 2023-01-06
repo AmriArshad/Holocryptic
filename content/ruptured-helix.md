@@ -5,6 +5,7 @@ date = 2020-12-14
 [taxonomies]
 tags = ["2020", "p5js", "geometric design", "trigonometry", "glitchy", "colour"]
 [extra]
+preview = "https://vault.holocryptic.xyz/assets/img/preview/RupturedHelix.png"
 summary = "A helix that pulses with 'unstable energy'"
 +++
 

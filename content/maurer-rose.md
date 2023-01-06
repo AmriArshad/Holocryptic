@@ -5,6 +5,7 @@ date = 2020-12-31
 [taxonomies]
 tags = ["2020", "p5js", "trigonometry", "monochrome"]
 [extra]
+preview = "https://vault.holocryptic.xyz/assets/img/preview/MaurerRose.png"
 summary = "A Maurer Rose implementation with an increasing number of petals"
 +++
 

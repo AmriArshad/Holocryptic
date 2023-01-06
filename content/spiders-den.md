@@ -5,6 +5,7 @@ date = 2020-12-09
 [taxonomies]
 tags = ["2020", "p5js", "particle system", "monochrome"]
 [extra]
+preview = "https://vault.holocryptic.xyz/assets/img/preview/SpidersDen.png"
 summary = "Spiders weaving their den"
 +++
 

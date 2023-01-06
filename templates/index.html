@@ -3,6 +3,11 @@
 {% block content %}
     {% for page in paginator.pages %}
       <section class="post animated fadeInDown">
+        {% if page.extra.preview %}
+        <div class="post-preview">
+              <img src={{page.extra.preview}} />
+            </div>
+        {% endif %}
         <div class="post-title">
                 <h3><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
         </div>

@@ -5,6 +5,7 @@ date = 2020-11-30
 [taxonomies]
 tags = ["2020", "p5js","harmonic", "trigonometry"]
 [extra]
+preview = "https://vault.holocryptic.xyz/assets/img/preview/HarmonicQuadrilaterals.png"
 summary = "Quadrilaterals that change size according to harmonic motion"
 +++
 

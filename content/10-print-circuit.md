@@ -5,6 +5,7 @@ date = 2020-12-21
 [taxonomies]
 tags = ["2020", "p5js", "generative system", "geometric design", "monochrome"]
 [extra]
+preview = "https://vault.holocryptic.xyz/assets/img/preview/10PRINTCircuit.png"
 summary = "My version of the famous one-line Commodore 64 BASIC program"
 +++
 

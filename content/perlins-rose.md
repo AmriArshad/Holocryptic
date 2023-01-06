@@ -5,6 +5,7 @@ date = 2020-12-19
 [taxonomies]
 tags = ["2020", "p5js", "generative system", "perlin noise", "colour"]
 [extra]
+preview = "https://vault.holocryptic.xyz/assets/img/preview/PerlinsRose.png"
 summary = "Using perlin noise to create different rose designs"
 +++
 

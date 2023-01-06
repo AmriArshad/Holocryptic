@@ -5,6 +5,7 @@ date = 2020-12-23
 [taxonomies]
 tags = ["2020", "p5js", "trigonometry", "geometric design", "biological design", "colour"]
 [extra]
+preview = "https://vault.holocryptic.xyz/assets/img/preview/PhyllotacticSpiral.png"
 summary = "Simulating phyllotaxis with an increasing divergence angle"
 +++
 

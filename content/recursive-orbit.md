@@ -5,6 +5,7 @@ date = 2020-12-22
 [taxonomies]
 tags = ["2020", "p5js", "trigonometry", "geometric design", "recursion", "monochrome"]
 [extra]
+preview = "https://vault.holocryptic.xyz/assets/img/preview/RecursiveOrbit.png"
 summary = "Using a Sierpinski Triangle to draw an orbit path"
 +++
 

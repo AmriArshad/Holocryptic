@@ -5,6 +5,7 @@ date = 2020-12-08
 [taxonomies]
 tags = ["2020", "p5js", "trigonometry", "perlin noise", "colour"]
 [extra]
+preview = "https://vault.holocryptic.xyz/assets/img/preview/LightSpeed.png"
 summary = "Travelling at the speed of light"
 +++
 

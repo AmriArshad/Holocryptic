@@ -5,6 +5,7 @@ date = 2020-11-28
 [taxonomies]
 tags = ["2020", "p5js", "binary", "colour", "grid"]
 [extra]
+preview = "https://vault.holocryptic.xyz/assets/img/preview/BinaryShift.png"
 summary = "Animated bits that shift in colour and value"
 +++
 

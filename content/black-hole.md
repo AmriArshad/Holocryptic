@@ -5,6 +5,7 @@ date = 2020-12-04
 [taxonomies]
 tags = ["2020", "p5js", "perlin noise", "colour"]
 [extra]
+preview = "https://vault.holocryptic.xyz/assets/img/preview/BlackHole.png"
 summary = "Offsetting the vertices of a circle using perlin noise to create a black hole"
 +++
 

@@ -5,6 +5,7 @@ date = 2020-12-02
 [taxonomies]
 tags = ["2020", "p5js", "geometric design", "triangles"]
 [extra]
+preview = "https://vault.holocryptic.xyz/assets/img/preview/TPulse.png"
 summary = "Triangles pulsing"
 +++
 
