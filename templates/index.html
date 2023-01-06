@@ -49,14 +49,14 @@
         {% if paginator.next %}
           <li class="next pagbuttons">
             <a class="btn" role="navigation" href="{{ paginator.next }}" aria-label="{{ trans(key="next_page", lang=lang) }}">
-              {{ trans(key="next_page", lang=lang) }}
+              {{ trans(key="next_page", lang=lang) }} <i class="fa-solid fa-chevron-right"></i>
             </a>
           </li>
         {% endif %}
         {% if paginator.previous %}
           <li class="pre pagbuttons">
             <a class="btn" role="navigation" href="{{ paginator.previous }}" aria-label="{{ trans(key="last_page", lang=lang) }}">
-              {{ trans(key="last_page", lang=lang) }}
+              <i class="fa-solid fa-chevron-left"></i> {{ trans(key="last_page", lang=lang) }}
             </a>
           </li>
         {% endif %}

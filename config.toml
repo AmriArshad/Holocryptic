@@ -35,8 +35,8 @@ tags = "Tags"
 vault = "Vault"
 links = "Links"
 date_format = "%d-%m-%Y"
-next_page = "Next Page"
-last_page = "Last Page"
+next_page = "Next"
+last_page = "Prev"
 
 [extra.social]
 github = "AmriArshad"
