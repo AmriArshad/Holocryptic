@@ -1,0 +1,55 @@
+{% extends "basic.html" %}
+
+{% block title %}{{ config.title }} • {{ page.title }}{% endblock title %}
+
+{% block content %}
+<article class="post animated fadeInDown">
+  <h1><a href="{{ page.permalink }}">{{ page.title }}</a></h1>
+  {% if page.extra.author %}
+  <div class="info">By {{ page.extra.author }}.</div>
+  {% endif %}
+  <div class="post-content">{{ page.content | safe }}</div>
+  <div class="post-footer">
+    <div class="meta">
+      <div class="info">
+        {% if page.date %}
+          <i class="far fa-sun"></i><span class="date">{{ page.date | date(format=trans(key="date_format", lang=lang)) }}</span>
+        {% endif %}
+        {% if page.taxonomies.tags %}
+          <i class="fas fa-tags"></i>
+          {% for tag in page.taxonomies.tags %}
+            <a class="tag" href="{{ get_url(path="@/_index.md", lang=lang) }}tags/{{tag}}">&nbsp;{{tag}}</a>
+          {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</article>
+<div class="share">
+  <!-- <div class="weibo">
+    <a class="fab fa-weibo" href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&title=',e(d.title),'&appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"></a>
+  </div> -->
+  <div class="twitter">
+    <a class="fab fa-twitter" href="http://twitter.com/share?text={{ page.title }}&url={{ page.permalink | trim_end_matches(pat="/") }}{% if page.taxonomies.tags %}&hashtags={{ page.taxonomies.tags | join(sep=",") }}{% endif %}"></a>
+  </div>
+</div>
+{% include "comments.html" %}
+{% if page.extra.mathjax %}
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['$$', '$$'], ["\\[", "\\]"]],
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    }
+  };
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/{{ page.extra.mathjax }}-chtml.js">
+</script>
+{% endif %}
+{% if page.extra.mermaid %}
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+{% endif %}
+{% endblock content %}
