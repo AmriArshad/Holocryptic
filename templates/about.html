@@ -1,8 +1,15 @@
-{% extends "basic.html" %}
-
-{% block content %}
+{% extends "basic.html" %} {% block content %}
 <article class="post animated fadeInDown">
-  <h1><a href="{{ section.permalink }}"> {{ trans(key="about", lang=lang) }} </a></h1>
+  <h1>
+    <a href="{{ section.permalink }}"> {{ trans(key="about", lang=lang) }} </a>
+  </h1>
   <div class="post-content">{{ section.content | safe }}</div>
+  <div class="post-footer">
+    <div class="meta">
+      <div class="info">
+        Theme designed by <a href="https://www.caicai.me">CaiCai</a>
+      </div>
+    </div>
+  </div>
 </article>
 {% endblock content %}
