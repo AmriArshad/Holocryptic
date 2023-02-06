@@ -19,7 +19,7 @@ theme = "anatole-zola"
 
 [languages.en]
 title = "Holocryptic"
-description = "Generative Artist and Designer"
+description = "Generative Artist"
 generate_feed = true
 taxonomies = [
     {name = "tags"},
@@ -39,7 +39,7 @@ next_page = "Next"
 last_page = "Prev"
 
 [extra.social]
-github = "AmriArshad"
+github = ""
 twitter = "holocrypt1c"
 facebook = ""
 instagram = "_holocrypt1c/"
