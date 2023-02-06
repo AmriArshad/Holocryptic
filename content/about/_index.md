@@ -8,4 +8,4 @@ This website is a collection of my ongoing projects that explore the intersectio
 
 Thank you for visiting and I hope you enjoy my work!
 
-Get in touch with me at <a href="mailto:amriarshad0@gmail.com">amriarshad0@gmail.com</a>
+Get in touch with me on <a href="https://twitter.com/holocrypt1c">Twitter</a>
